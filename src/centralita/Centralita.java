@@ -22,6 +22,7 @@ public class Centralita {
     }
 
     public int getCont() {
+        cont = llamadas.size();
         return cont;
     }
 
